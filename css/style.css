@@ -128,3 +128,106 @@ font-size:36px;
 }
 
 }
+.topbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 8%;
+
+background:#0b0b0b;
+
+}
+
+.topbar nav{
+
+display:flex;
+
+gap:35px;
+
+}
+
+.topbar nav a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.logo img{
+
+height:70px;
+
+}
+
+.login-btn{
+
+background:#D4AF37;
+
+color:black;
+
+padding:12px 25px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.hero{
+
+min-height:80vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:72px;
+
+line-height:1.1;
+
+color:#D4AF37;
+
+}
+
+.hero p{
+
+margin:30px 0;
+
+font-size:22px;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.secondary{
+
+background:#222;
+
+color:white;
+
+}
