@@ -74,3 +74,24 @@ alert(error.message);
 });
 
 }
+import {
+
+signOut
+
+}
+
+from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
+
+const logout = document.getElementById("logout");
+
+if (logout) {
+
+logout.onclick = async () => {
+
+await signOut(auth);
+
+window.location = "login.html";
+
+};
+
+}
