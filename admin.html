@@ -38,38 +38,44 @@
 <section class="features">
 
 <div class="card">
-<h3>👥 Members</h3>
-<p>View, activate, suspend or delete members.</p>
+<h2>👥 Total Members</h2>
+<p id="memberCount">Loading...</p>
 </div>
 
 <div class="card">
-<h3>📢 Announcements</h3>
-<p>Create announcements for all members.</p>
+<h2>💎 Premium Members</h2>
+<p id="premiumCount">Loading...</p>
 </div>
 
 <div class="card">
-<h3>📸 Gallery</h3>
-<p>Manage exclusive member content.</p>
-</div>
-
-<div class="card">
-<h3>💎 Membership Plans</h3>
-<p>Edit membership tiers and benefits.</p>
-</div>
-
-<div class="card">
-<h3>📄 Agreement</h3>
-<p>Manage the Domain Membership & Confidentiality Agreement.</p>
-</div>
-
-<div class="card">
-<h3>⚙ Website Settings</h3>
-<p>Update branding and site information.</p>
+<h2>👑 Administrators</h2>
+<p id="adminCount">Loading...</p>
 </div>
 
 </section>
 
-<script type="module" src="js/auth.js"></script>
+<h2 style="text-align:center;margin-top:40px;">Registered Members</h2>
 
-</body>
-</html>
+<table class="member-table">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Email</th>
+
+<th>Membership</th>
+
+<th>Role</th>
+
+</tr>
+
+</thead>
+
+<tbody id="memberTable">
+
+</tbody>
+
+</table>
