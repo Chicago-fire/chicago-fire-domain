@@ -231,3 +231,43 @@ background:#222;
 color:white;
 
 }
+.member-table{
+
+width:90%;
+
+margin:40px auto;
+
+border-collapse:collapse;
+
+}
+
+.member-table th,
+.member-table td{
+
+padding:15px;
+
+border:1px solid #D4AF37;
+
+text-align:center;
+
+}
+
+.member-table th{
+
+background:#B22222;
+
+color:white;
+
+}
+
+.member-table tr{
+
+background:#111;
+
+}
+
+.member-table tr:hover{
+
+background:#1f1f1f;
+
+}
